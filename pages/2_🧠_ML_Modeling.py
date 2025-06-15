@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="ML Modeling")
-st.title("🤖 Machine Learning Modeling")
+st.title("Machine Learning Modeling")
 
 # Load and clean data
 def load_data():
