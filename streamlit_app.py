@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set Streamlit app configuration
 st.set_page_config(
-    page_title="📡 LTE Network Analyzer",
+    page_title="LTE Network Analyzer",
     page_icon="📶",
 )
 
