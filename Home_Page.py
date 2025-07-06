@@ -15,7 +15,7 @@ Welcome to the LTE Network Analyzer. This multi-page application allows you to:
 - 🧠 Apply machine learning models to classify and evaluate network quality
 - 🗺️ Visualize serving cell coverage and performance on maps (coming soon)
 
-Use the sidebar to navigate between pages. Make sure `LTE combined data.xlsx` is located in the root project folder.
+Use the sidebar to navigate between pages. Make sure `LTE combined data.csv` is located in the root project folder.
 
 ---
 💡 Tip: You can expand/collapse content on each page for a cleaner interface.
