@@ -1,6 +1,6 @@
 ## Final Project
 
-The Project is deployed on Streamlit Cloud, you can interact with the project with [this link](https://lteappproject-7wb22fcfmnbpc5ul5zifgi.streamlit.app/).
+The Project is deployed on Streamlit Cloud, you can interact with the project with [this link](https://lteapp.streamlit.app/).
 
 Or you can run the dashboard locally: 
 
