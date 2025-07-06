@@ -10,32 +10,13 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
-"""
-📡 Network Mode Prediction
--------------------------
-Compare two modelling strategies to show whether **Stratified CV + SMOTE**
-helps recognise minority network modes.
-
-Pipelines compared
-~~~~~~~~~~~~~~~~~~
-1. **Baseline** – stratified train‑test split, *no* resampling.
-2. **Stratified CV + SMOTE** – oversample minorities *inside* each fold,
-   then train on the full train set with SMOTE.
-
-Outputs: per‑class metrics, confusion matrices, and a macro‑metric bar‑chart.
-
-🔧 *Note* `st.set_page_config()` is **not** called here to avoid the
-"can only be called once" error. Configure the app once in `Home_Page.py`.
-"""
-
 # ---------------------------------------------------------------------
 # Page header
 # ---------------------------------------------------------------------
 
 st.title("📡 Network Mode Prediction – Baseline vs Stratified CV + SMOTE")
 
-st.markdown(
-    """
+st.markdown("""
     **Goal** Demonstrate whether class‑imbalance aware modelling really improves
     the ability to recognise minority network modes (e.g. EDGE, HSUPA) compared
     with a regular model.
@@ -45,8 +26,7 @@ st.markdown(
     2. **Stratified CV + SMOTE** – 5‑fold stratified cross‑validation with
        SMOTE in each fold, followed by a final model trained on SMOTE‑balanced
        data.
-    """
-)
+    """)
 
 # ---------------------------------------------------------------------
 # Helper functions
